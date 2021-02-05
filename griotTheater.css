@@ -1,0 +1,55 @@
+/* .featured-shows {
+    background-image: url(images/theater-image-background.png);
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+} */
+.featured-links{
+    border: 2px solid orange;
+    /* padding: 10px; */
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* flex-grow: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em; */
+}
+/* .featured-links div{
+    flex-basis: 36%;
+    padding: 10px;
+} */
+
+.image{
+    border: 2px solid rgb(255, 0, 242);
+    flex:1;
+}
+.show-details{
+    border: 2px solid blue;
+    flex: 2;
+}
+/* .buttons{
+    border: 2px solid green;
+    margin-left: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+} */
+.buttons{
+    border: 2px solid green;
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* flex-grow: 5; */
+    /* justify-content: right; */
+    /* margin-block-start: auto;
+    align: center;  */
+} 
+img{
+    /* max-width: 100%;
+    max-height: 100%; */
+}
